@@ -50,6 +50,9 @@ class UsuarioAdoptante:
             self.preferencias = preferencias
         print("Datos actualizados.")
 
+    def ver_historial(self):
+        return self.historial_adopciones
+
 class SistemaAdopcion:
     def __init__(self):
         self.perros = {}
